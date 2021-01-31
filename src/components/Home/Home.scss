@@ -1,0 +1,33 @@
+@import '../../../assets/colors.scss';
+@import '../../../assets/size.scss';
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: $SECONDARY;
+}
+.homeLeft {
+    height: 100vh;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-weight: 900; 
+    font-size: $SMALL;
+    color: $BLACK;
+}
+.homeTextColor {
+    color: $PRIMARY;
+}
+.homeHeader {
+    font-size: $XLARGE;
+    margin: 0;
+}
+.homeDescriptionText {
+    font-weight: 700;
+    font-size: $XSMALL;
+    color: $GREY;
+}
+
