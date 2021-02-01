@@ -15,14 +15,14 @@ function Home(){
                         John Shin
                     </header>
                     <p className="homeDescriptionText">
-                        Software Engineer & Tea enthusiast
+                        Software Engineer & Tea Enthusiast of the matcha variety
                     </p>
                 </div>
-                <div>
-                    <button className="homeButtonResume">
+                <div className="homeButtonContainer">
+                    <button className="homeButton homeButtonResume">
                         Resume
                     </button>
-                    <button className="homeButtonChat">
+                    <button className="homeButton homeButtonChat">
                         Let's Chat
                     </button>
                 </div>

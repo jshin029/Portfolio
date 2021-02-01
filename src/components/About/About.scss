@@ -1,0 +1,23 @@
+@import '../../assets/colors.scss';
+@import '../../assets/sizes.scss';
+
+.aboutContainer {
+    padding-bottom: 80px;
+    width: 100%;
+}
+.aboutSubHeader {
+    color: $PRIMARY;
+    font-size: $XSMALL;
+    font-weight: 700;
+}
+.aboutMainHeader {
+    color: $BLACK;
+    font-size: $MEDIUM;
+    font-weight: 900;
+}
+.aboutDescriptionContainer {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

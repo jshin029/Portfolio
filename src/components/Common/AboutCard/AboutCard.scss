@@ -1,0 +1,22 @@
+@import '../../../assets/colors.scss';
+@import '../../../assets/sizes.scss';
+
+.aboutCardContainer {
+    width: 300px;
+}
+.aboutCardHeader {
+    color: $BLACK;
+    font-size: $SMALL;
+    font-weight: 900;
+    margin-top: 18px;
+}
+.aboutCardDescription {
+    color: $GREY;
+    font-size: $XXSMALL;
+    font-weight: 500;
+    line-height: 1.75;
+    margin-top: 8px;
+}
+.aboutCardIcon {
+    height: 40px;
+}

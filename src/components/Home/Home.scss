@@ -1,19 +1,23 @@
-@import '../../../assets/colors.scss';
-@import '../../../assets/size.scss';
+@import '../../assets/colors.scss';
+@import '../../assets/sizes.scss';
 
 p {
     margin: 0px;
     padding: 0px;
 }
+button {
+    border: none;
+}
+button:focus {
+    outline: none;
+}
 .homeContainer {
     display: flex;
     flex-direction: row;
-    background-color: $SECONDARY;
 }
 .homeLeft {
     height: 100vh;
-    margin-top: 15%;
-    margin-left: 5%;
+    margin-top: 18%;
     font-weight: 900; 
     font-size: $SMALL;
     color: $BLACK;
@@ -22,12 +26,44 @@ p {
     color: $PRIMARY;
 }
 .homeHeader {
-    font-size: $XLARGE;
+    font-size: $XXLARGE;
+    font-weight: 700;
     margin: 0;
 }
 .homeDescriptionText {
-    font-weight: 700;
+    font-weight: 500;
     font-size: $XSMALL;
     color: $GREY;
 }
-
+.homeButtonContainer {
+    margin-top: 45px;
+}
+.homeButton {
+    border-radius: 30px;
+    padding: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 3px solid;
+    font-size: $XSMALL;
+    cursor: pointer;
+}
+.homeButtonResume {
+    color: $WHITE;
+    background-color: $PRIMARY;
+    border-color: $PRIMARY;
+    margin-right: 14px;
+    transition: all 0.4s ease-in-out;
+}
+.homeButtonResume:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(255, 105, 124, 1); 
+}
+.homeButtonChat {
+    color: $PRIMARY;
+    background-color: transparent;
+    border-color: $PRIMARY;
+    transition: all 0.4s ease-in-out;
+}
+.homeButtonChat:hover {
+    box-shadow: 0 5px 15px rgba(255, 105, 124, 1); 
+}

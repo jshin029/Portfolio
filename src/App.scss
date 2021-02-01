@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import './assets/colors.scss';
+
 .App {
   font-family: 'Lato';
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: $SECONDARY;
 }
