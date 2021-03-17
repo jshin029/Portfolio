@@ -1,0 +1,39 @@
+@import '../../../assets/colors.scss';
+@import '../../../assets/sizes.scss';
+
+a {
+    text-decoration: none;
+}
+.projectsCardContainer {
+    width: 315px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: $WHITE;
+}
+.projectsCardTextContainer {
+    padding: 15px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.projectsCardSubHeader {
+    font-size: $XXXSMALL;
+    font-weight: 900;
+    color: $GREY;
+    height: $XXXSMALL;
+}
+.projectsCardDescription {
+    font-size: $XSMALL;
+    font-weight: 900;
+    color: $BLACK;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+.projectsCardLink {
+    color: $PRIMARY;
+    font-size: 12px;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+}
+.projectsCardLink:hover {
+    opacity: 0.7;
+}

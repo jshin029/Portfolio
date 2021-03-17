@@ -1,0 +1,23 @@
+@import '../../assets/colors.scss';
+@import '../../assets/sizes.scss';
+
+.footerContainer {
+    display: flex;
+    padding-bottom: 40px;
+}
+.footerInnerContainer {
+    margin: auto;
+}
+.footerGithub {
+    margin-right: 50px;
+}
+.footerEmail {
+    margin-left: 50px;
+}
+.footerGithub,.footerLinkedin,.footerEmail {
+    transition: all 0.3s ease-in-out;
+}
+.footerGithub:hover,.footerLinkedin:hover,.footerEmail:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

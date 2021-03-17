@@ -1,0 +1,31 @@
+@import '../../../assets/colors.scss';
+@import '../../../assets/sizes.scss';
+
+.tlCardContainer {
+    background-color: $WHITE;
+    padding: 18px;
+    border-radius: 6px;
+    text-align: left !important;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.tlCardTitle {
+    margin: 0;
+    font-size: $SMALL;
+    font-weight: 900;
+    color: $BLACK;
+}
+.tlCardDate {
+    margin: 0;
+    margin-top: 2px;
+    color: $PRIMARY;
+    font-size: $XSMALL;
+    font-weight: 500;
+}
+.tlCardDescription {
+    color: $GREY;
+    font-size: $XXSMALL;
+    font-weight: 500;
+    line-height: 1.75;
+    margin-top: 8px;
+}

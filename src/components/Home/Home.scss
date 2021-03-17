@@ -22,6 +22,10 @@ button:focus {
     font-size: $SMALL;
     color: $BLACK;
 }
+.homeRight {
+    margin-top: 5%;
+    margin: auto;
+}
 .homeTextColor {
     color: $PRIMARY;
 }
@@ -46,6 +50,8 @@ button:focus {
     border: 3px solid;
     font-size: $XSMALL;
     cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 .homeButtonResume {
     color: $WHITE;

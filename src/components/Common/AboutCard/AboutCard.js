@@ -21,12 +21,12 @@ const imageSelecter = (image) => {
 }
 
 function AboutCard(props){
-    const { textDescription, image } = props;
+    const { textDescription, image, title } = props;
     return(
         <div className="aboutCardContainer">
             { imageSelecter(image) }
             <header className="aboutCardHeader">
-                Web Development
+                { title }
             </header>
             <p className="aboutCardDescription">
                 { textDescription }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactComponent as Profile } from '../../assets/images/profile.svg';
 import './Home.scss';
 
 
@@ -19,13 +20,15 @@ function Home(){
                     </p>
                 </div>
                 <div className="homeButtonContainer">
-                    <button className="homeButton homeButtonResume">
+                    <a className="homeButton homeButtonResume">
                         Resume
-                    </button>
-                    <button className="homeButton homeButtonChat">
+                    </a>
+                    <a className="homeButton homeButtonChat" href="https://www.linkedin.com/in/john-shin029/">
                         Let's Chat
-                    </button>
+                    </a>
                 </div>
+            </div>
+            <div className="homeRight">
             </div>
         </div>
     );

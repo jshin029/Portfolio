@@ -1,24 +1,20 @@
 @import '../../assets/colors.scss';
 @import '../../assets/sizes.scss';
 
-.aboutContainer {
-    padding-bottom: 100px;
-    width: 100%;
+.tlContainer {
+    padding-bottom: 80px;
 }
-.aboutSubHeader {
+.tlSubHeader {
     color: $PRIMARY;
     font-size: $XSMALL;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
-.aboutMainHeader {
+.tlMainHeader {
     color: $BLACK;
     font-size: $MEDIUM;
     font-weight: 900;
 }
-.aboutListContainer {
+.tlExperienceContainer {
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
