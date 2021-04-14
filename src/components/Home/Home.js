@@ -20,7 +20,7 @@ function Home(){
                         </p>
                     </div>
                     <div className="homeButtonContainer">
-                        <a className="homeButton homeButtonResume">
+                        <a className="homeButton homeButtonResume" href="https://drive.google.com/file/d/1yczD-RztvU7Tw1g70Xe4epzk4GTZcqgL/view?usp=sharing">
                             Resume
                         </a>
                         <a className="homeButton homeButtonChat" href="https://www.linkedin.com/in/john-shin029/">

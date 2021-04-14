@@ -5,9 +5,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const descriptions = [
     "Birdie allows users to search for trending tweets based on location",
-    "StockOverflow uses news data to predict a stock’s future",
+    "StockOverflow uses news data and previous trends to predict a stock’s future",
     "Joyride takes out the stress of organizing rides in large groups ",
-    "Baut recommends movies and music based on the user's decision",
+    "Baut recommends movies and music based on conversations with the user",
     "Toor creates a space for users to share and enjoy audio tours in places they visited",
     "CheaterBeater identifies fraudalent hackathon projects based on devpost"
 ]
