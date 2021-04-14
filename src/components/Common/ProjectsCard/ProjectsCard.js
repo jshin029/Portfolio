@@ -1,36 +1,38 @@
 import React from 'react';
 import './ProjectsCard.scss';
-import { ReactComponent as Baut } from '../../../assets/images/baut.svg';
-import { ReactComponent as StockOverflow } from '../../../assets/images/stockoverflow.svg';
-import { ReactComponent as JoyRide } from '../../../assets/images/joyride.svg';
-import { ReactComponent as CB } from '../../../assets/images/cb.svg';
-import { ReactComponent as Birdie } from '../../../assets/images/birdie.svg';
-import { ReactComponent as Toor } from '../../../assets/images/toor.svg';
+
+import baut from '../../../assets/images/baut.png';
+import stockOverFlow from '../../../assets/images/stockoverflow.png';
+import birdie from '../../../assets/images/birdie.png';
+import joyride from '../../../assets/images/joyride.png';
+import toor from '../../../assets/images/toor.png';
+import cb from '../../../assets/images/cb.png';
+
 
 const imageSelecter = (image) => {
     if (image === 'baut')
     {
-        return <Baut />
+        return <img className="projectsCardImg" src={baut} alt="Baut"/>
     }
     else if (image === 'stockOverflow')
     {
-        return <StockOverflow />
+        return <img className="projectsCardImg" src={stockOverFlow} alt="StockOverFlow"/>
     }
     else if (image === 'joyride')
     {
-        return <JoyRide />
+        return <img className="projectsCardImg" src={joyride} alt="Joyride"/>
     }
     else if (image === 'cb')
     {
-        return <CB />
+        return <img className="projectsCardImg" src={cb} alt="CheaterBeater"/>
     }
     else if (image === 'birdie')
     {
-        return <Birdie />
+        return <img className="projectsCardImg" src={birdie} alt="Birdie"/>
     }
     else if (image === 'toor')
     {
-        return <Toor />
+        return <img className="projectsCardImg" src={toor} alt="Toor"/>
     }
 }
 

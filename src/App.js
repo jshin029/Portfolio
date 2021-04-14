@@ -1,4 +1,6 @@
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';

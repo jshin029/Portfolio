@@ -1,6 +1,8 @@
 import React from 'react';
-import TLCard from '../Common/TLCard/TLCard';
 import './Experience.scss';
+import TLCard from '../Common/TLCard/TLCard';
+import { Container, Row, Col } from 'react-bootstrap';
+
 
 import { makeStyles } from '@material-ui/core/styles';
 import Timeline from '@material-ui/lab/Timeline';

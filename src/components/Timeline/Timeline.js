@@ -1,22 +1,27 @@
 import React from 'react';
-import Experience from './Experience';
 import './Timeline.scss';
+import Experience from './Experience';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Timeline() {
     return(
-        <div className="tlContainer">
-            <div className="tlHeaderContainer">
-                <header className="tlSubHeader">
-                    Just Some Of...
-                </header>
-                <header className="tlMainHeader">
-                    My Experience
-                </header>
-            </div>
-            <div className="tlExperienceContainer">
-                <Experience />
-            </div>
-        </div>
+        <Container fluid className="tlContainer">
+            <Row className="justify-content-md-center tlHeaderContainer">
+                <Col lg="10">
+                    <header className="tlSubHeader">
+                        Just Some Of...
+                    </header>
+                    <header className="tlMainHeader">
+                        My Experience
+                    </header>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center tlExperienceContainer">
+                <Col lg="10">
+                    <Experience />
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

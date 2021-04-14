@@ -3,7 +3,9 @@
 
 .App {
   font-family: 'Lato';
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
   background-color: $SECONDARY;
+  max-width: 1600px;
+  margin: 0 auto;
 }
